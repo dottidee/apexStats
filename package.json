@@ -1,0 +1,36 @@
+{
+  "name": "appex-tracker",
+  "version": "1.0.0",
+  "description": "track stats for apex legends",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm run serve -- prefix client",
+    "dev" : "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "1"
+  },
+  "keywords": [
+    "0",
+    "0",
+    "dottidee/apexStats"
+  ],
+  "author": "Dorothy Scheines",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
